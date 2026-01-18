@@ -4,7 +4,7 @@ import Image from '../../assets/avatar-1.1.png';
 import AboutBox from './AboutBox';
 
 
-
+const About = () => {
     return (
         <section className="about container section" id="about">
             <h2 className="section__title">
@@ -40,7 +40,7 @@ import AboutBox from './AboutBox';
                             <li>React</li>
 
                         </ul>
-                        <button className="btn" >Donwload CV</button>
+                        <button className="btn" >Download CV</button>
                     </div>
 
                     {/* <div className="about__skills grid">
