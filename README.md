@@ -19,10 +19,10 @@ $ git clone https://github.com/Ganavd/bagusargana-react-portfolio
 $ cd bagusargana-react-portfolio
 
 # Install dependencies
-$ yarn install
+$ npm install
 
 # Run the app
-$ yarn start
+$ npm start
 ```
 
 <!-- ## Credits

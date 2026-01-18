@@ -22,21 +22,32 @@ const Portfolio = () => {
 			<h2 className="section__title">Recent Projects</h2>
 
 			<div className="portfolio__filters">
-				<span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
-					All
-				</span>
-				<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Frontend"); setActiveFilter(1) }}>
-					Frontend
-				</span>
-				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Backend"); setActiveFilter(2) }}>
-					Backend
-				</span>
-				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Angular"); setActiveFilter(3) }}>
-					Angular
-				</span>
-				<span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("React"); setActiveFilter(4) }}>
-					React
-				</span>
+				<div className="portfolio__filters-group">
+					<span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
+						All
+					</span>
+					<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Web"); setActiveFilter(1) }}>
+						Web
+					</span>
+					<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Game"); setActiveFilter(2) }}>
+						Game
+					</span>
+					<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Data-Python"); setActiveFilter(3) }}>
+						Data-Python
+					</span>
+				</div>
+
+				<div className="portfolio__filters-group">
+					<span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Basic"); setActiveFilter(4) }}>
+						Basic
+					</span>
+					<span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Mid"); setActiveFilter(5) }}>
+						Mid
+					</span>
+					<span className={activeFilter === 6 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("High"); setActiveFilter(6) }}>
+						High
+					</span>
+				</div>
 			</div>
 
 			<div className="portfolio__container grid">

@@ -10,7 +10,7 @@ const Resume = () => {
 
     return (
         <section className="resume container section" id="resume">
-            <h2 className="section__title">Experience</h2>
+            <h2 className="section__title">Pengalaman</h2>
 
             <div className="resume__container">
                 <Tabs
@@ -36,7 +36,7 @@ const Resume = () => {
                         return (
                             <TabPanel className="tab__panel" key={`panel-${id}`}>
                                 <h2 className="tab__panel-title">
-                                    {title} @ {company}
+                                    {title} 
                                 </h2>
                                 <p className="tab__panel-subtitle">{yearsActive}</p>
                                 <ul className="tab__panel-list">

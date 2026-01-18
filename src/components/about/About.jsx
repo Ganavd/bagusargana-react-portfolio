@@ -20,18 +20,28 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                           Halo! Saya Bagus Argana, dan saya tinggal di Ponorogo, Indonesia. Saya belajar di SMKN 1 Jenangan 
+                           di bidang Pengembangan Perangkat Lunak.<br /><br />
+                           Saya bisa dengan jujur mengatakan bahwa perjalanan ini saya berharap bisa 
+                           berkembang lebih jauh sebagai Ahli Perangkat Lunak. Fokus saya saat ini adalah memperluas portofolio saya 
+                           dengan membangun lebih banyak proyek yang bisa saya tambahkan di sini, serta menjadi anggota tim yang baik di 
+                           peran saya saat ini.<br /><br />
+                           Berikut beberapa teknologi yang baru-baru ini saya kerjakan: 
+                           <br />
+                          Junior
                         </p>
                         <ul className="about__list">
-                            <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
-                            <li>React</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
                             <li>Node.js</li>
+                            <li>Express.js</li>
                             <li>Postgres SQL</li>
-                            <li>NestJS</li>
+                            <li>MySQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Unity</li>
+                            <li>React</li>
+
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>

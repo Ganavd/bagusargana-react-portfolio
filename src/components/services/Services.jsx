@@ -8,23 +8,23 @@ const data = [
     {
         id: 1,
         image: Image1,
-        title: "Responsive design",
+        title: "Reponsif Desain",
         description:
-            "Ensuring that the website/mobile app is responsive across all platforms",
+            "Memastikan website atau aplikasi mobile dapat diakses di semua platform",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Pengembangan Web",
         description:
-            "Ensuring that that a website meets the correct standards, and also ensuring it's well maintained",
+            "Memastikan situs web memenuhi standar yang benar dan juga memastikan situs web tersebut dijaga dengan baik",
     },
     {
         id: 3,
         image: Image3,
-        title: "Mobile Development",
+        title: "Data Analisis",
         description:
-            "Ensuring that a mobile app meets the correct standards, and also ensuring it's well maintained",
+            "Memahami serta menganalisis data untuk mendapatkan informasi yang dapat dijadikan keputusan",
     },
 ];
 

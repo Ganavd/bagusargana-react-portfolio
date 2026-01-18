@@ -5,7 +5,7 @@ import { SiHashnode } from 'react-icons/si'
 const HeaderSocials = () => {
     return (
         <div className='home__socials'>
-            <a href='https://www.github.com/GregSithole' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://www.github.com/Ganavd' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaGithub />
             </a>
 

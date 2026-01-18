@@ -1,9 +1,25 @@
 .portfolio__filters {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 1.875rem;
+  gap: 1.5rem;
   margin-bottom: 2.5rem;
+}
+
+.portfolio__filters-group {
+  display: flex;
+  align-items: center;
+  column-gap: 1.875rem;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+}
+
+[data-theme='dark'] .portfolio__filters-group {
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .portfolio__item {
