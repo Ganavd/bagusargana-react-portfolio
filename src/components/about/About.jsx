@@ -1,13 +1,8 @@
 import React from 'react';
 import './About.css';
 import Image from '../../assets/avatar-1.1.png';
-import Resume from '../../assets/resume.pdf';
 import AboutBox from './AboutBox';
 
-const About = () => {
-    const downloadResume = async () => {
-        window.open(Resume, '_blank');
-    }
 
 
     return (
@@ -45,7 +40,7 @@ const About = () => {
                             <li>React</li>
 
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload CV</button>
+                        <button className="btn" >Donwload CV</button>
                     </div>
 
                     {/* <div className="about__skills grid">
